@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/trends.ico" />
     <title>Bootstrap w/ Vite</title>
     <script type="module" src="./js/main.js"></script>
   </head>
@@ -16,17 +17,6 @@
         <strong>Equipe [NÚMERO]</strong> - Tema: [TEMA DO PROJETO]<br />
         TI IaDF 2025.2 - Desenvolvimento Web
       </div>
-
-      <button class="btn btn-primary" id="btnTeste">Testar JavaScript</button>
-      <!-- Button trigger modal -->
-      <button
-        type="button"
-        class="btn btn-success"
-        data-bs-toggle="modal"
-        data-bs-target="#modalComecarProjeto"
-      >
-        Começar Projeto
-      </button>
 
       <!-- Modal -->
       <div
@@ -64,9 +54,6 @@
         </div>
       </div>
       <!-- Toast -->
-      <button type="button" class="btn btn-primary" id="liveToastBtn">
-        Prática!
-      </button>
 
       <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div
@@ -90,7 +77,25 @@
           <div class="toast-body">Projeto Integrador</div>
         </div>
       </div>
-      <a href="about.html" class="btn btn-info ms-2">Sobre</a>
+
+      <div
+        class="d-flex justify-content-center align-items-center flex-wrap gap-2 mt-2"
+      >
+        <button class="btn btn-primary" id="btnTeste">Testar JavaScript</button>
+        <button
+          type="button"
+          class="btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#modalComecarProjeto"
+        >
+          Começar Projeto
+        </button>
+        <button type="button" class="btn btn-primary" id="liveToastBtn">
+          Prática!
+        </button>
+        <a href="about.html" class="btn btn-info ms-2">Sobre</a>
+        <a href="playground.html" class="btn btn-info ms-2">Playground</a>
+      </div>
       <!-- Fim do Container -->
     </div>
   </body>
