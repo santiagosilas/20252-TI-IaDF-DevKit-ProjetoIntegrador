@@ -17,14 +17,14 @@
 
 # 📅 Cronograma das Aulas
 
-## Aula 1 - Fundamentos de JavaScript
+## [24/09] Aula 1 - Fundamentos de JavaScript
 
 - Variáveis, constantes, operadores
 - Estruturas condicionais (if/else)
 - Estruturas de repetição (loops)
 - Eventos básicos (click, submit)
 
-## Aula 2 - JavaScript Interativo
+## [01/10] Aula 2 - JavaScript Interativo
 
 - Manipulação do DOM
 - Mais sobre Eventos
