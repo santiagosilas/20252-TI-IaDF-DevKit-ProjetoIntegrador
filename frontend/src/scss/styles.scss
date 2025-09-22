@@ -1,2 +1,11 @@
 // Adiciona import do Bootstrap no styles.scss
 @import "bootstrap/scss/bootstrap";
+
+.body-bg-code {
+  background-image: url("../assets/code.jpg");
+  background-size: cover; /* Estica mantendo proporção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Não repete */
+  background-attachment: fixed; /* Fica fixo no scroll */
+  min-height: 100vh; /* Garante altura mínima */
+}
