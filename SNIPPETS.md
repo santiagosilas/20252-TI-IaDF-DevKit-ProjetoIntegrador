@@ -1,4 +1,4 @@
-# Visão Geral de Javascript
+# Javascript Básico
 
 Variáveis e Tipos de Dados
 
@@ -242,6 +242,7 @@ Exemplo com DOM - Obter e Alterar Elementos
         alert("Task added successfully!");
       });
 ```
+
 
 
 
