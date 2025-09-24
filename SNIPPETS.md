@@ -30,3 +30,11 @@ console.log(`Este número é ${numero % 2 === 0 ? "par" : "ímpar"}`);
 - document.**querySelectorAll**
   - Análogo ao querySelector, mas retorna um array.
 
+Exemplo com DOM - Contar Caracteres
+```javascript
+      const texto = document.querySelector("#texto");
+      const contagem = document.querySelector("#contagem");
+      texto.addEventListener("input", () => {
+        contagem.innerText = texto.value.length;
+      });
+```
