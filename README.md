@@ -8,34 +8,21 @@
 - CSS3 - Estilização e layout responsivo;
 - Bootstrap 5 - Framework CSS para interfaces modernas;
 
-# JavaScript
-- Visão Geral e Prática da Linguagem:
+# 📅 Cronograma das Aulas
+
+## [24/09] Aula 1 - Fundamentos de JavaScript
    - Variáveis (let), constantes (const),
    - Comentários
    - Tipos de dados primitivos (string, number, boolean),
    - Operadores relacionais, lógicos e matemáticos;
-   - Controle de fluxo (condicionais e laços);
+   - Controle de fluxo (condicionais e loops);
    - Declaração e chamada de funções, Parâmetros, return e escopo;
-- Manipulação do DOM
-   - Eventos: addEventListener, click, input, load;
-   - Interação com o usuário.
-
-# 📅 Cronograma das Aulas
-
-## [24/09] Aula 1 - Fundamentos de JavaScript
-
-- Variáveis, constantes, operadores
-- Estruturas condicionais (if/else)
-- Estruturas de repetição (loops)
-- Eventos básicos (click, submit)
 
 ## [01/10] Aula 2 - JavaScript Interativo
 
 - Manipulação do DOM
-- Mais sobre Eventos
-- Interação com formulários
-- Validação de formulários
-
+- Eventos: addEventListener, click, input, load;
+  
 # 🛠️ Instalação e Configuração
 
 ## **Passo 1: Instalar Node.js**
