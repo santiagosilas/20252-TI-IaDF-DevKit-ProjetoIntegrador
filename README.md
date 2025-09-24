@@ -22,8 +22,9 @@
 
 - Manipulação do Document Object Model (DOM)
 - Obtenção de elementos: (document.querySelector, getElementById, querySelectorAll)
-- Alteração de texto e estilo: .innerText, .style
-- Eventos: addEventListener, click, input, load;
+- Alteração de texto e estilo: .textContent, .innerHTML, .innerText, .style
+- Alteração de Classes com .classList.add(), .classList.remove()
+- Eventos: elemento.addEventListener('click', ...), click, input, load;
   
 # 🛠️ Instalação e Configuração
 
