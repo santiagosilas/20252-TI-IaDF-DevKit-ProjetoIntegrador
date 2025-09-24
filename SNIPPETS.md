@@ -132,6 +132,29 @@ Condicionais
   let result = success == true ? 1 : 0;
 ```
 
+Arrays
+```javascript
+let pf = ["Django", "Flask", "Tornado", "Pyramid"];
+let lstNumbers = [0, 100, 200, 300, 400, 500];
+```
+
+
+Laços (Loops)
+```javascript
+i = 0;
+while (i < numbers.length) {
+  console.log(numbers[i]);
+  i++;
+}
+
+i = 0;
+for (let index = 0; index < numbers.length; index++) {
+  console.log(numbers[index]);
+}
+
+
+```
+
 Funções
 ```javascript
  let mult = function (x, y) {
@@ -242,6 +265,7 @@ Exemplo com DOM - Obter e Alterar Elementos
         alert("Task added successfully!");
       });
 ```
+
 
 
 
