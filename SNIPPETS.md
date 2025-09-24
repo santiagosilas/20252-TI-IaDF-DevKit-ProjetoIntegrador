@@ -38,3 +38,62 @@ Exemplo com DOM - Contar Caracteres
         contagem.innerText = texto.value.length;
       });
 ```
+
+
+Exemplo com DOM - Obter e Alterar Elementos
+```javascript
+      // Obter o elemento via query selector
+      let header_title = document.querySelector("header h1");
+      let header_descr = document.querySelector("header p");
+
+      // Obter o elemento via ID
+      const toggleBtn = document.getElementById("toggle-bg");
+      let info1 = document.getElementById("info1");
+      let info2 = document.querySelector("#info2");
+      let taskForm = document.getElementById("task-form");
+
+      // Obter o elemento via classe
+      let subtitle = document.querySelector(".subtitle");
+      subtitle = document.getElementsByClassName("subtitle")[0];
+
+      // textContent para modifica o conteúdo dos elementos
+      header_descr.textContent = "A Simple Task Manager to Learn JS.";
+      info1.textContent = "This is a simple task manager application.";
+      info2.textContent = "You can add tasks to your list.";
+      subtitle.textContent = "Manage your tasks efficiently!";
+
+      // Toggle background color button
+
+      let isBlack = false;
+      toggleBtn.addEventListener("click", function () {
+        document.body.style.backgroundColor = isBlack ? "white" : "black";
+        document.body.style.color = isBlack ? "black" : "white";
+        isBlack = !isBlack;
+
+        header_title.classList.toggle("black-bg");
+      });
+
+      document
+        .getElementById("task-input")
+        .addEventListener("input", (event) => {
+          let inputValue = event.target.value;
+          document.getElementById("currenttext").textContent = inputValue;
+        });
+
+      taskForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        let inputValue = document.getElementById("task-input").value;
+        if (inputValue.trim() === "") {
+          alert("Please enter a task.");
+          return;
+        }
+        let taskList = document.getElementById("tasks");
+        let newTask = document.createElement("li");
+        newTask.textContent = inputValue;
+        taskList.appendChild(newTask);
+        document.getElementById("task-input").value = "";
+        document.getElementById("currenttext").textContent = "";
+        alert("Task added successfully!");
+      });
+```
+
