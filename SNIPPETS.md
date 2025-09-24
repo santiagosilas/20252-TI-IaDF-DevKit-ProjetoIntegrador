@@ -26,6 +26,25 @@ console.log("horario", horario, typeof horario);
 console.log("gerente", gerente, typeof gerente);
 ```
 
+Constantes
+```javascript
+const x = 42;
+x = 7; // TypeError: Assignment to constant variable.
+```
+
+Funções
+```javascript
+ let mult = function (x, y) {
+    return x * y;
+  };
+
+let calc_imc = (peso, altura) => {
+    return peso / (altura * altura);
+  };
+
+console.log(calc_imc(67.0, 1.71));
+```
+
 Entrada e Saída
 
 ```javascript
@@ -123,5 +142,6 @@ Exemplo com DOM - Obter e Alterar Elementos
         alert("Task added successfully!");
       });
 ```
+
 
 
