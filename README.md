@@ -4,16 +4,21 @@
 
 # Tecnologias já trabalhadas:
 
-- HTML5 - Estrutura semântica de páginas web
-- CSS3 - Estilização e layout responsivo
-- Bootstrap 5 - Framework CSS para interfaces modernas
+- HTML5 - Estrutura semântica de páginas web;
+- CSS3 - Estilização e layout responsivo;
+- Bootstrap 5 - Framework CSS para interfaces modernas;
 
 # JavaScript
-
-- Variáveis, constantes, operadores lógicos e matemáticos
-- Controle de fluxo (condicionais e laços)
-- Eventos e mensagens
-- Interação com o usuário
+- Visão Geral e Prática da Linguagem:
+   - Variáveis (let), constantes (const),
+   - Comentários
+   - Tipos de dados primitivos (string, number, boolean),
+   - Operadores relacionais, lógicos e matemáticos;
+   - Controle de fluxo (condicionais e laços);
+   - Declaração e chamada de funções, Parâmetros, return e escopo;
+- Manipulação do DOM
+   - Eventos: addEventListener, click, input, load;
+   - Interação com o usuário.
 
 # 📅 Cronograma das Aulas
 
