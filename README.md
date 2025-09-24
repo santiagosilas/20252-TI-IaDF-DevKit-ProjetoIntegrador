@@ -8,7 +8,7 @@
 - CSS3 - Estilização e layout responsivo;
 - Bootstrap 5 - Framework CSS para interfaces modernas;
 
-# 📅 Cronograma das Aulas
+# Visão Geral de Javascript para Web
 
 ## [24/09] Aula 1 - Fundamentos de JavaScript
    - Variáveis (let), constantes (const),
@@ -20,7 +20,8 @@
 
 ## [01/10] Aula 2 - JavaScript Interativo
 
-- Manipulação do DOM
+- Manipulação do Document Object Model (DOM) 
+- Selecionando elementos: document.querySelector, getElementById
 - Eventos: addEventListener, click, input, load;
   
 # 🛠️ Instalação e Configuração
