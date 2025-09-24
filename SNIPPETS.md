@@ -32,6 +32,87 @@ const x = 42;
 x = 7; // TypeError: Assignment to constant variable.
 ```
 
+Operadores
+```javascript
+  // Operadores Aritméticos (+, -, /, *, %)
+  let a = 8,
+    b = 3;
+
+  console.log(8 + 3); // Soma
+  console.log(8 - 3); // Subtração
+  console.log(8 * 3); // Multiplicação
+  console.log(8 / 3); // Divisão
+  console.log(8 % 3); // Módulo (Resto da Divisão Inteira)
+
+  // Operadores de Atribuição (=, +=, -=, *=, /=, %=. ++, --)
+  // Operadores de Atribuição
+  let valor = 10;
+  valor = 2;
+  console.log(valor); // 2
+
+  valor = 3; // sobreescrita
+  console.log(valor); // 3
+
+  valor = 10;
+  valor += 2;
+  console.log(valor); // 12
+
+  valor = 10;
+  valor -= 2;
+  console.log(valor); // 8
+
+  valor = 10;
+  valor *= 3;
+  console.log(valor); // 30
+
+  valor = 10;
+  valor /= 4;
+  console.log(valor); // 2.5
+
+  valor = 10;
+  valor %= 3;
+  console.log(valor); // 1
+
+  valor = 10;
+  valor++;
+  console.log(valor); // 11
+
+  valor = 10;
+  valor--;
+  console.log(valor); // 9
+
+  // Operadores Relacionais
+  // Operadores Relacionais: ==, !=, <, >, <=, >=
+  let preco_a = 2.5,
+    preco_b = 5.75,
+    preco_c = "2.5",
+    preco_d = "5.75";
+
+  console.log("preco_a == preco_b", preco_a == preco_b);
+  console.log("preco_a != preco_b", preco_a != preco_b);
+  console.log("preco_a > preco_b", preco_a > preco_b);
+  console.log("preco_a > preco_b", preco_a < preco_b);
+  console.log("preco_a < preco_b", preco_a < preco_b);
+  console.log("preco_a >= preco_b", preco_a >= preco_b);
+  console.log("preco_a <= preco_b", preco_a <= preco_b);
+
+  // Operadores ===, !== (verica o valor e também o tipo das variáveis)
+  console.log("preco_a == preco_c", preco_a == preco_c);
+  console.log("preco_a === preco_c", preco_a === preco_c);
+
+  // Operadores Lógicos: && (AND), || (OR), !(NOT)
+  // Conhecimento prévio necessário: Tabelas-verdade AND, OR, NOT
+  let userIsLoggedIn, userIsAdmin;
+
+  userIsLoggedIn = true;
+  userIsAdmin = true;
+
+  console.log(userIsLoggedIn && userIsAdmin);
+  console.log(userIsLoggedIn || userIsAdmin);
+  console.log(!userIsLoggedIn);
+```
+
+
 Condicionais
 ```javascript
 
@@ -161,6 +242,7 @@ Exemplo com DOM - Obter e Alterar Elementos
         alert("Task added successfully!");
       });
 ```
+
 
 
 
