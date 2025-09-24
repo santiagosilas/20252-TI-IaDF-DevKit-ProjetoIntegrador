@@ -10,7 +10,7 @@
 
 # Visão Geral de Javascript para Web
 
-## [24/09] Aula 1 - Fundamentos de JavaScript
+## Fundamentos de JavaScript
    - Variáveis (let), constantes (const),
    - Comentários
    - Tipos de dados primitivos (string, number, boolean),
@@ -18,9 +18,10 @@
    - Controle de fluxo (condicionais e loops);
    - Declaração e chamada de funções, Parâmetros, return e escopo;
 
-## [01/10] Aula 2 - JavaScript Interativo
+## JavaScript Interativo
 
-- Manipulação do Document Object Model (DOM) 
+- Manipulação do Document Object Model (DOM)
+- Alteração de texto e estilo: .innerText, .style.
 - Selecionando elementos: document.querySelector, getElementById
 - Eventos: addEventListener, click, input, load;
   
