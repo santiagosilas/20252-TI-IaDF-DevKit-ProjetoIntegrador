@@ -21,8 +21,8 @@
 ## JavaScript Interativo
 
 - Manipulação do Document Object Model (DOM)
-- Alteração de texto e estilo: .innerText, .style.
-- Selecionando elementos: document.querySelector, getElementById
+- Obtenção de elementos: (document.querySelector, getElementById, querySelectorAll)
+- Alteração de texto e estilo: .innerText, .style
 - Eventos: addEventListener, click, input, load;
   
 # 🛠️ Instalação e Configuração
