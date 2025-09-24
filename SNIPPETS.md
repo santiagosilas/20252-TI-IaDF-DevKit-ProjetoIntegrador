@@ -32,6 +32,25 @@ const x = 42;
 x = 7; // TypeError: Assignment to constant variable.
 ```
 
+Condicionais
+```javascript
+
+  let okay = true;
+  if (!okay) {
+  } else if (1 < 2) {
+  } else {
+  }
+
+  let success = true;
+  if (success == true) {
+    console.log("Ok!");
+  } else {
+    console.log("Erro!");
+  }
+
+  let result = success == true ? 1 : 0;
+```
+
 Funções
 ```javascript
  let mult = function (x, y) {
@@ -142,6 +161,7 @@ Exemplo com DOM - Obter e Alterar Elementos
         alert("Task added successfully!");
       });
 ```
+
 
 
 
