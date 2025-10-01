@@ -4,33 +4,28 @@
 
 # Tecnologias já trabalhadas:
 
-- HTML5 - Estrutura semântica de páginas web
-- CSS3 - Estilização e layout responsivo
-- Bootstrap 5 - Framework CSS para interfaces modernas
+- HTML5 - Estrutura semântica de páginas web;
+- CSS3 - Estilização e layout responsivo;
+- Bootstrap 5 - Framework CSS para interfaces modernas;
 
-# JavaScript
+# Visão Geral de Javascript para Web
 
-- Variáveis, constantes, operadores lógicos e matemáticos
-- Controle de fluxo (condicionais e laços)
-- Eventos e mensagens
-- Interação com o usuário
+## Fundamentos de JavaScript
+   - Variáveis (let), constantes (const),
+   - Comentários
+   - Tipos de dados primitivos (string, number, boolean),
+   - Operadores relacionais, lógicos e matemáticos;
+   - Controle de fluxo (condicionais e loops);
+   - Declaração e chamada de funções, Parâmetros, return e escopo;
 
-# 📅 Cronograma das Aulas
+## JavaScript Interativo
 
-## [24/09] Aula 1 - Fundamentos de JavaScript
-
-- Variáveis, constantes, operadores
-- Estruturas condicionais (if/else)
-- Estruturas de repetição (loops)
-- Eventos básicos (click, submit)
-
-## [01/10] Aula 2 - JavaScript Interativo
-
-- Manipulação do DOM
-- Mais sobre Eventos
-- Interação com formulários
-- Validação de formulários
-
+- Manipulação do Document Object Model (DOM)
+- Obtenção de elementos: (document.querySelector, getElementById, querySelectorAll)
+- Alteração de texto e estilo: .textContent, .innerHTML, .innerText, .style
+- Alteração de Classes com .classList.add(), .classList.remove(), classList.toggle()
+- Eventos: elemento.addEventListener('click', ...), click, input, load;
+  
 # 🛠️ Instalação e Configuração
 
 ## **Passo 1: Instalar Node.js**
