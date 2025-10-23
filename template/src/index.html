@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/trends.ico" />
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/site.js"></script>
+  </head>
+  <body>
+    <!-- Início do container -->
+    <div class="container py-4 px-3 mx-auto">
+      <h1>🚀 DevKit - Projeto Integrador</h1>
+      <p class="lead">Template com Vite + Bootstrap</p>
+
+      <div class="alert alert-info" role="alert">
+        <strong>Equipe [NÚMERO]</strong> - Tema: [TEMA DO PROJETO]<br />
+        TI IaDF 2025.2 - Desenvolvimento Web
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="modalComecarProjeto"
+        tabindex="-1"
+        aria-labelledby="LabelComecarProjeto"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="LabelComecarProjeto">
+                🚀 DevKit - Projeto Integrador
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <button type="button" class="btn btn-success">Avançar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Toast -->
+
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div
+          id="liveToast"
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header">
+            <img src="assets/trends.ico" class="small" alt="..." />
+            <strong class="me-auto">🚀 DevKit</strong>
+            <small>11 mins ago</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">Projeto Integrador</div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-center align-items-center flex-wrap gap-2 mt-2"
+      >
+        <a href="about.html" class="btn btn-info ms-2">Sobre</a>
+      </div>
+      <!-- Fim do Container -->
+    </div>
+  </body>
+</html>
