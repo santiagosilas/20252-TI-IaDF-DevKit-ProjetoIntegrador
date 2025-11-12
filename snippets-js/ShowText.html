@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS4Web</title>
+    <style></style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+      scelerisque, felis nec aliquet dapibus, justo purus finibus nisi, vel
+      tristique massa mauris ut est. Etiam in orci in lorem venenatis fermentum.
+      Suspendisse potenti
+      <span class="reticencias">. . .</span>
+      <span class="texto-adicional"
+        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        scelerisque, felis nec aliquet dapibus, justo purus finibus nisi, vel
+        tristique massa mauris ut est. Etiam in orci in lorem venenatis
+        fermentum. Suspendisse potenti</span
+      >
+    </p>
+
+    <button id="btn">Click</button>
+    <script>
+      const textoAdicional = document.querySelector(".texto-adicional");
+      const botao = document.querySelector("#btn");
+      botao.onclick = () => {
+        if (textoAdicional.style.display === "none") {
+          textoAdicional.style.display = "inline";
+          botao.innerText = "Ler menos";
+        } else {
+          textoAdicional.style.display = "none";
+          botao.innerText = "Ler mais";
+        }
+      };
+    </script>
+  </body>
+</html>
